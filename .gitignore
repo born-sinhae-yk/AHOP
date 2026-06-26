@@ -64,6 +64,9 @@ app.*.map.json
 # Web build output (빌드 결과물 제외)
 /web/build/
 
+# release/ 디렉토리는 APK 배포용으로 포함
+!/release/
+
 # 키스토어 / 서명 파일 (보안)
 *.jks
 *.keystore

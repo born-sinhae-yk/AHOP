@@ -40,6 +40,16 @@
 
 ---
 
+## 📥 다운로드
+
+| 파일 | 버전 | 크기 | 비고 |
+|------|------|------|------|
+| [HWP-Suite-v1.0.0-release.apk](./release/HWP-Suite-v1.0.0-release.apk) | v1.0.0 | 52.3 MB | Android 5.0 이상 |
+
+> **설치 방법**: APK 파일을 안드로이드 기기에 전송 후, **설정 → 보안 → 알 수 없는 출처** 허용 후 설치
+
+---
+
 ## 🛠️ 기술 스택
 
 | 항목 | 내용 |
@@ -99,6 +109,20 @@ lib/
 └── utils/
     └── app_theme.dart           # 앱 테마 정의
 ```
+
+---
+
+## 📖 빌드 가이드
+
+Android Studio에서 빌드하는 전체 방법은 **[docs/ANDROID_STUDIO_BUILD_GUIDE.md](./docs/ANDROID_STUDIO_BUILD_GUIDE.md)** 를 참고하세요.
+
+주요 내용:
+- Flutter SDK 설치 및 플러그인 설정
+- 프로젝트 열기 (GitHub 클론)
+- 디버그 / 릴리즈 APK 빌드
+- App Bundle (AAB) 빌드
+- 에뮬레이터 및 실제 기기 실행
+- 자주 발생하는 오류 해결
 
 ---
 

@@ -1,0 +1,41 @@
+name: hwp_suite
+description: "HWP/HWPX 문서 뷰어 및 에디터 - rhwp 기반"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: 6.1.5+1
+  shared_preferences: 2.5.3
+  hive: 2.2.3
+  hive_flutter: 1.1.0
+  http: 1.5.0
+  webview_flutter: 4.13.0
+  file_picker: 8.1.7
+  path_provider: 2.1.5
+  path: 1.9.1
+  share_plus: 10.1.4
+  permission_handler: 11.4.0
+  intl: 0.20.2
+  url_launcher: 6.3.1
+  flutter_svg: 2.0.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  hive_generator: 2.0.1
+  build_runner: 2.4.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/rhwp/
